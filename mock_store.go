@@ -7,7 +7,7 @@ import (
 	"github.com/wificoin-project/wfcd/chaincfg/chainhash"
 	"github.com/wificoin-project/wfcd/wire"
 	"github.com/wificoin-project/wfcwallet/waddrmgr"
-	"github.com/lightninglabs/neutrino/headerfs"
+	"github.com/wificoin-project/neutrino/headerfs"
 )
 
 // mockBlockHeaderStore is an implementation of the BlockHeaderStore backed by

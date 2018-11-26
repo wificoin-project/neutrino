@@ -20,8 +20,8 @@ import (
 	"github.com/wificoin-project/wfcutil"
 	"github.com/wificoin-project/wfcutil/gcs"
 	"github.com/wificoin-project/wfcutil/gcs/builder"
-	"github.com/lightninglabs/neutrino/headerfs"
-	"github.com/lightninglabs/neutrino/headerlist"
+	"github.com/wificoin-project/neutrino/headerfs"
+	"github.com/wificoin-project/neutrino/headerlist"
 )
 
 const (

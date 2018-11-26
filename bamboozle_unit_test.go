@@ -12,7 +12,7 @@ import (
 	"github.com/wificoin-project/wfcutil/gcs"
 	"github.com/wificoin-project/wfcutil/gcs/builder"
 	"github.com/wificoin-project/wfcwallet/walletdb"
-	"github.com/lightninglabs/neutrino/headerfs"
+	"github.com/wificoin-project/neutrino/headerfs"
 )
 
 func decodeHashNoError(str string) *chainhash.Hash {

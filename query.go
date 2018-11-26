@@ -15,8 +15,8 @@ import (
 	"github.com/wificoin-project/wfcutil/gcs"
 	"github.com/wificoin-project/wfcutil/gcs/builder"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightninglabs/neutrino/cache"
-	"github.com/lightninglabs/neutrino/filterdb"
+	"github.com/wificoin-project/neutrino/cache"
+	"github.com/wificoin-project/neutrino/filterdb"
 )
 
 var (

@@ -19,10 +19,10 @@ import (
 	"github.com/wificoin-project/wfcutil"
 	"github.com/wificoin-project/wfcutil/gcs"
 	"github.com/wificoin-project/wfcutil/gcs/builder"
-	"github.com/lightninglabs/neutrino/cache"
-	"github.com/lightninglabs/neutrino/cache/lru"
-	"github.com/lightninglabs/neutrino/filterdb"
-	"github.com/lightninglabs/neutrino/headerfs"
+	"github.com/wificoin-project/neutrino/cache"
+	"github.com/wificoin-project/neutrino/cache/lru"
+	"github.com/wificoin-project/neutrino/filterdb"
+	"github.com/wificoin-project/neutrino/headerfs"
 )
 
 var (

@@ -22,9 +22,9 @@ import (
 	"github.com/wificoin-project/wfcutil"
 	"github.com/wificoin-project/wfcwallet/waddrmgr"
 	"github.com/wificoin-project/wfcwallet/walletdb"
-	"github.com/lightninglabs/neutrino/cache/lru"
-	"github.com/lightninglabs/neutrino/filterdb"
-	"github.com/lightninglabs/neutrino/headerfs"
+	"github.com/wificoin-project/neutrino/cache/lru"
+	"github.com/wificoin-project/neutrino/filterdb"
+	"github.com/wificoin-project/neutrino/headerfs"
 )
 
 // These are exported variables so they can be changed by users.

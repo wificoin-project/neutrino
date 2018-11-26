@@ -29,7 +29,7 @@ import (
 	"github.com/wificoin-project/wfcwallet/wallet/txauthor"
 	"github.com/wificoin-project/wfcwallet/walletdb"
 	_ "github.com/wificoin-project/wfcwallet/walletdb/bdb"
-	"github.com/lightninglabs/neutrino"
+	"github.com/wificoin-project/neutrino"
 )
 
 var (

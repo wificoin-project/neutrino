@@ -19,7 +19,7 @@ import (
 	"github.com/wificoin-project/wfcutil/gcs"
 	"github.com/wificoin-project/wfcutil/gcs/builder"
 	"github.com/wificoin-project/wfcwallet/waddrmgr"
-	"github.com/lightninglabs/neutrino/headerfs"
+	"github.com/wificoin-project/neutrino/headerfs"
 )
 
 var (

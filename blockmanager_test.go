@@ -13,7 +13,7 @@ import (
 	"github.com/wificoin-project/wfcd/wire"
 	"github.com/wificoin-project/wfcutil/gcs/builder"
 	"github.com/wificoin-project/wfcwallet/walletdb"
-	"github.com/lightninglabs/neutrino/headerfs"
+	"github.com/wificoin-project/neutrino/headerfs"
 )
 
 // maxHeight is the height we will generate filter headers up to.
