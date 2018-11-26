@@ -1,10 +1,10 @@
 package neutrino
 
 import (
-	"github.com/btcsuite/btcd/addrmgr"
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/peer"
-	"github.com/btcsuite/btcd/txscript"
+	"github.com/wificoin-project/wfcd/addrmgr"
+	"github.com/wificoin-project/wfcd/blockchain"
+	"github.com/wificoin-project/wfcd/peer"
+	"github.com/wificoin-project/wfcd/txscript"
 	"github.com/btcsuite/btclog"
 )
 

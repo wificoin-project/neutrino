@@ -6,7 +6,7 @@ package neutrino
 import (
 	"fmt"
 
-	"github.com/btcsuite/btcd/wire"
+	"github.com/wificoin-project/wfcd/wire"
 )
 
 // messageType describes the type of blockMessage.
