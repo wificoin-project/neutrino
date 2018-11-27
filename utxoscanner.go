@@ -90,7 +90,7 @@ type UtxoScannerConfig struct {
 	BlockFilterMatches func(ro *rescanOptions, blockHash *chainhash.Hash) (bool, error)
 
 	// GetBlock fetches a block from the p2p network.
-	GetBlock func(chainhash.Hash, ...QueryOption) (*btcutil.Block, error)
+	GetBlock func(chainhash.Hash, ...QueryOption) (*wfcutil.Block, error)
 }
 
 // UtxoScanner batches calls to GetUtxo so that a single scan can search for

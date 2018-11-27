@@ -83,7 +83,7 @@ type donePeerMsg struct {
 // txMsg packages a bitcoin tx message and the peer it came from together
 // so the block handler has access to that information.
 type txMsg struct {
-	tx   *btcutil.Tx
+	tx   *wfcutil.Tx
 	peer *ServerPeer
 }
 
@@ -2358,7 +2358,7 @@ func (b *blockManager) checkHeaderSanity(blockHeader *wire.BlockHeader,
 	if err != nil {
 		return err
 	}
-	stubBlock := btcutil.NewBlock(&wire.MsgBlock{
+	stubBlock := wfcutil.NewBlock(&wire.MsgBlock{
 		Header: *blockHeader,
 	})
 	err = blockchain.CheckProofOfWork(stubBlock,
